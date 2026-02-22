@@ -1,57 +1,56 @@
 # 🛡️ Purple RP Management Bot
-### *High-Performance Discord Roleplay Orchestration*
+### *Professionelle Discord Roleplay Verwaltung*
 
-![Python](https://img.shields.io/badge/Language-Python%203.10+-blue)
+![Python](https://img.shields.io/badge/Sprache-Python%203.10+-blue)
 ![Library](https://img.shields.io/badge/Library-discord.py%202.0+-green)
-![License](https://img.shields.io/badge/License-Single--Server-red)
+![License](https://img.shields.io/badge/Lizenz-Single--Server-red)
 
 ---
 
-## ✨ Core Features
+## ✨ Hauptfunktionen
 
-* **🛂 Automated Entry System**: Seamlessly manage the transition from "Arrival" to "Citizen" with the `/einreise` command.
-* **🏢 Faction Database**: Create, track, and manage factions with built-in warning systems for organization leaders.
-* **🚫 Smart Security**: Automatically detects and blocks users with a history of 3+ warnings upon joining the server.
-* **🛠️ Maintenance Mode**: Lock the server for updates with a single command, featuring a countdown and custom reason display.
-* **📋 Logging System**: Every staff action is logged to a designated channel to ensure transparency and accountability.
+* **🛂 Automatisiertes Einreise-System**: Nahtlose Verwaltung vom "Ankömmling" zum "Bürger" mit dem `/einreise` Befehl.
+* **🏢 Fraktions-Datenbank**: Erstelle und verwalte Fraktionen mit einem integrierten Warn-System für Fraktionsleiter.
+* **🚫 Intelligente Sicherheit**: Erkennt automatisch Nutzer mit 3+ Verwarnungen beim Beitritt und setzt eine automatische Sperre.
+* **🛠️ Wartungsmodus**: Sperre den Server für Updates mit einem Befehl, inklusive Countdown und benutzerdefiniertem Grund.
+* **📋 Logging-System**: Jede Team-Aktion wird in einem Log-Channel protokolliert, um volle Transparenz zu gewährleisten.
 
 ---
 
-## 🚀 Commands Overview
+## 🚀 Befehlsübersicht
 
-### **Staff & Moderation**
-| Command | Description | Permission |
+### **Team & Moderation**
+| Befehl | Beschreibung | Berechtigung |
 | :--- | :--- | :--- |
-| `/einreise` | Officially enters a user into the RP. | Staff+ |
-| `/warn` | Issues a permanent warning to a user (3 = Auto-Sperre). | Staff+ |
-| `/sperre` | Manually locks a user out of the server roles. | Staff+ |
-| `/staffstatus` | Checks your current permission level. | Everyone |
+| `/einreise` | Schließt die Einreise für einen User offiziell ab. | Team+ |
+| `/warn` | Erteilt eine permanente Verwarnung (3 = Auto-Sperre). | Team+ |
+| `/sperre` | Sperrt einen User manuell von den Server-Rollen aus. | Team+ |
+| `/staffstatus` | Überprüft dein aktuelles Berechtigungslevel. | Jeder |
 
-### **Faction Management**
-| Command | Description | Permission |
+### **Fraktions-Verwaltung**
+| Befehl | Beschreibung | Berechtigung |
 | :--- | :--- | :--- |
-| `/frakadd` | Registers a new faction and assigns a leader. | HighTeam |
-| `/frakwarn` | Issues an official warning to a specific faction. | HighTeam |
-| `/frakliste` | Displays all registered factions and their warning status. | Everyone |
+| `/frakadd` | Registriert eine neue Fraktion und einen Leiter. | HighTeam |
+| `/frakwarn` | Erteilt einer Fraktion eine offizielle Verwarnung. | HighTeam |
+| `/frakliste` | Zeigt alle Fraktionen und deren Warn-Status an. | Jeder |
 
 ---
 
-## ⚙️ Setup & Installation
+## ⚙️ Einrichtung & Installation
 
-> **Note:** This bot is a premium, single-server licensed product. Initial setup requires a manual configuration of Server IDs to ensure maximum security.
+> **Hinweis:** Dieser Bot ist ein Premium-Produkt mit Einzelserver-Lizenz. Die Ersteinrichtung erfordert eine manuelle Konfiguration der IDs für maximale Sicherheit.
 
-1. **Prepare Files**: Ensure `UserData.JSON`, `Fraktionen.json`, and `maintenance.json` are in the bot's root directory.
-2. **Configure IDs**: Open `RP Bot.py` and navigate to **Section 1 (EINRICHTUNG)**.
-3. **Insert Keys**: Replace placeholders (e.g., `000000000...`) with your specific Channel, Role, and Guild IDs.
-4. **Intents**: Enable **Server Members Intent** in the Discord Developer Portal.
-5. **Run**: Execute the script using `python "RP Bot.py"`.
-
----
-
-## 🔒 Security & Licensing
-This software is protected and restricted to the authorized Guild ID provided during setup. This "Guild-Lock" ensures that the bot remains secure and exclusive to your community. Unauthorized distribution or modification of the core logic is strictly prohibited.
+1. **Dateien vorbereiten**: Stelle sicher, dass `UserData.JSON`, `Fraktionen.json` und `maintenance.json` im selben Ordner wie der Bot liegen.
+2. **IDs konfigurieren**: Öffne `RP Bot.py` und gehe zu **Sektion 1 (EINRICHTUNG)**.
+3. **Werte einsetzen**: Ersetze die Platzhalter (z.B. `000000000...`) mit deinen spezifischen Channel-, Rollen- und Guild-IDs.
+4. **Intents**: Aktiviere den **Server Members Intent** im Discord Developer Portal.
+5. **Starten**: Starte das Skript über die Konsole mit `python "RP Bot.py"`.
 
 ---
-*Developed by **@purplxwastaken***.  
-*For support or license verification, contact the developer via DM.*
 
+## 🔒 Sicherheit & Lizenzierung
+Diese Software ist geschützt und auf die während des Setups autorisierte Guild-ID beschränkt. Dieser "Guild-Lock" stellt sicher, dass der Bot exklusiv für deine Community bleibt. Eine unbefugte Weitergabe oder Änderung der Kern-Logik ist streng untersagt.
+
+---
+*Entwickelt von **@purplxwastaken***.  
+*Für Support oder Lizenzfragen kontaktiere den Entwickler direkt per DM.*
