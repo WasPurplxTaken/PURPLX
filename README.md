@@ -37,6 +37,12 @@
 
 ---
 
+### **Erwerben**
+
+Interresse geweckt? kontaktiere @purplxwastaken auf **discord** um eine lizenz für eine eigene version des bots zu erhalten.
+
+---
+
 ## ⚙️ Einrichtung & Installation
 
 > **Hinweis:** Dieser Bot ist ein Premium-Produkt mit Einzelserver-Lizenz. Die Ersteinrichtung erfordert eine manuelle Konfiguration der IDs für maximale Sicherheit.
