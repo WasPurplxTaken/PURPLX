@@ -4,6 +4,7 @@
 ![Python](https://img.shields.io/badge/Sprache-Python%203.10+-blue)
 ![Library](https://img.shields.io/badge/Library-discord.py%202.0+-green)
 ![License](https://img.shields.io/badge/Lizenz-Single--Server-red)
+![Entwickler](https://img.shields.io/badge/Entwickler-PurplxWasTaken-yellow)
 
 ---
 
