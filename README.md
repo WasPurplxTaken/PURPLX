@@ -39,7 +39,7 @@
 
 ### **Erwerben**
 
-Interresse geweckt? kontaktiere @purplxwastaken auf **discord** um eine lizenz für eine eigene version des bots zu erhalten.
+Interresse geweckt? kontaktiere **@purplxwastaken** auf **discord** um eine lizenz für eine eigene version des bots zu erhalten.
 
 ---
 
